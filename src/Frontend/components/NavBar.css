@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: white; */
 }
 
 
@@ -27,13 +26,8 @@
   font-size: 2rem;
 }
 
-#MenuIcn{
-  /* font-size: 1em; */
-}
-
 #First img{
   width: 7em;
-  /* margin-left: 20px; */
 }
 
 #Second{
@@ -41,7 +35,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 2px solid red; */
 }
 
 #Second div{
@@ -124,4 +117,25 @@
   font-size: 0.1rem;
   color: white;
   
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .NavBar{
+    margin: 0rem;
+    padding: 0rem;
+    height: 1.2rem;
+    padding: 0em;
+    display: flex;
+    position: fixed;
+    
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 400px;
+    background-color: white;
+  }
+  #Third{
+    display: none;
+  }
 }

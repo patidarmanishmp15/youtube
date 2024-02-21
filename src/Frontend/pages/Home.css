@@ -5,11 +5,9 @@
 
 #SideBar {
   margin-top: 3rem;
-
   position: fixed;
   width: 9rem;
   height: 100%;
-
   background-color: rgb(255, 255, 255);
 }
 
@@ -156,12 +154,38 @@
   left: 9rem;
   width: calc(100% - 10rem);
   overflow: scroll;
-
   margin-left: 1.5rem;
   height: 100%;
-
   display: flex;
   align-items: start;
   justify-content: start;
   flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  #SideBar {
+    display: none;
+    margin-top: 0rem;
+    position: fixed;
+    width: 0rem;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+   
+  #Videos {
+    position: fixed;
+    top: 3rem;
+    left: 0rem;
+    width: 426px;
+    overflow: scroll;
+    margin-left: 0rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
 }

@@ -7,8 +7,6 @@
   margin: 0.5rem 0.5rem;
   width: 17rem;
   height: 14rem;
-  
-  /* border: 1px solid #ccc; */
   transition: 0.2s;
   cursor: pointer;
 }
@@ -82,4 +80,13 @@
   font-size: 0.5rem;
 
   color: #555;
+}
+
+
+@MEDIA only screen and (max-width: 500px) {
+  .youtube-video-card {
+    height: 280px;
+    width: 380px;
+    
+  }
 }

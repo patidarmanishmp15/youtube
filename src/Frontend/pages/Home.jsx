@@ -138,6 +138,8 @@ export default function Home({ searchQuery }) {
           />
         ))}
       </div>
+
+      
     </div>
   );
 }
